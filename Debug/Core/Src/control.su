@@ -1,0 +1,11 @@
+../Core/Src/control.c:17:6:control_init	56	static
+../Core/Src/control.c:35:8:compute_pid	40	static
+../Core/Src/control.c:63:8:compute_impedance	64	static
+../Core/Src/control.c:84:6:set_desired_position	16	static
+../Core/Src/control.c:89:6:set_current_position	16	static
+../Core/Src/control.c:94:6:set_desired_velocity	24	static
+../Core/Src/control.c:99:8:process_data	32	static
+../Core/Src/control.c:111:5:set_motor_speed	48	static
+../Core/Src/control.c:164:7:mapfloat	32	static
+../Core/Src/control.c:170:6:pid_step	40	static
+../Core/Src/control.c:225:6:impedance_step	40	static

@@ -1,0 +1,8 @@
+max22200_driver.c:21:6:MAX22200_init	12
+max22200_driver.c:107:6:MAX22200_init_statreg	1
+max22200_driver.c:141:9:MAX22200_write_register	1
+max22200_driver.c:170:10:MAX22200_read_register	1
+max22200_driver.c:226:6:MAX22200_print_all_registers	2
+max22200_driver.c:237:10:buildStatusRegister	2
+max22200_driver.c:279:6:update_status_register	1
+max22200_driver.c:308:6:MAX22200_build_and_send_status_register	1

@@ -1,0 +1,17 @@
+motor.c:2:6:MAX22000_init_cfg_reg	1
+motor.c:34:6:Motor_init	1
+motor.c:45:6:Motor_setMode	3
+motor.c:64:6:Motor_writeCfgRegister	3
+motor.c:96:6:Motor_setDirection	5
+motor.c:121:6:Set_HFS	2
+motor.c:127:6:Set_HOLD	2
+motor.c:133:6:Set_TRGnSPl	2
+motor.c:139:6:Set_HIT	2
+motor.c:145:6:Set_HIT_T	1
+motor.c:151:6:Set_VDRnCDR	2
+motor.c:157:6:Set_HSnLS	2
+motor.c:163:6:Set_FREQ_CFG	2
+motor.c:169:6:Set_SRC	2
+motor.c:175:6:Set_OL_EN	2
+motor.c:181:6:Set_DPM_EN	2
+motor.c:187:6:Set_HHF_EN	2

@@ -1,0 +1,8 @@
+../Core/Src/max22200_driver.c:21:6:MAX22200_init	32	static
+../Core/Src/max22200_driver.c:107:6:MAX22200_init_statreg	72	static
+../Core/Src/max22200_driver.c:141:9:MAX22200_write_register	24	static
+../Core/Src/max22200_driver.c:170:10:MAX22200_read_register	32	static
+../Core/Src/max22200_driver.c:226:6:MAX22200_print_all_registers	16	static
+../Core/Src/max22200_driver.c:237:10:buildStatusRegister	24	static
+../Core/Src/max22200_driver.c:279:6:update_status_register	32	static
+../Core/Src/max22200_driver.c:308:6:MAX22200_build_and_send_status_register	24	static
