@@ -22,16 +22,25 @@ void calibration(MAX22200_StatusReg* stat_reg, Motor* motors[]) {
                     Motor_setDirection(i+1, SLEEP, stat_reg);
                     Set_VDRnCDR(&motors[i]->cfg1_, 0);//Go to CDR mode Current Drive
                     Set_VDRnCDR(&motors[i]->cfg2_, 0);//Go to CDR mode Current Drive
-                    Set_HIT(&motors[i]->cfg1_, 40);
-                    Set_HIT(&motors[i]->cfg2_, 40);
-                    Set_HOLD(&motors[i]->cfg1_, 40);
-                    Set_HOLD(&motors[i]->cfg2_, 40);
+                    Set_HIT(&motors[i]->cfg1_, 100);
+                    Set_HIT(&motors[i]->cfg2_, 100);
+                    Set_HOLD(&motors[i]->cfg1_, 100);
+                    Set_HOLD(&motors[i]->cfg2_, 100);
                     Motor_writeCfgRegister(&motors[i]->cfg1_, motors[i]->channel1_);
                     Motor_writeCfgRegister(&motors[i]->cfg2_, motors[i]->channel2_);
                     Motor_setDirection(i+1, DOWN, stat_reg);
                     last_counter_value[i] = counter[i];
                     motor_stable[i] = 0;
                 }
+//                HAL_Delay(3000);
+//                for (int i = 0; i < 3; ++i) {
+//                    Motor_setDirection(i+1, UP, stat_reg);
+//                }
+//                HAL_Delay(3000);
+//               for (int i = 0; i < 3; ++i) {
+//				   Motor_setDirection(i+1, DOWN, stat_reg);
+//               }
+			HAL_Delay(3000);
                 state = STATE_CALIBRATION;  // Move to calibration state
                 break;
 

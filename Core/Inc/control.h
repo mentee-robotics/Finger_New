@@ -47,6 +47,7 @@ int set_motor_speed(pid_control* self,float control_signal,int mode,int motor);
 float mapfloat(float x, float in_min, float in_max, float out_min, float out_max);
 void pid_step(MAX22200_StatusReg* stat_reg,pid_control* pids[],Motor* motors[]);
 void impedance_step(MAX22200_StatusReg* stat_reg,pid_control* pids[],Motor* motors[]);
+void move_motor()
 
 // External variables
 extern uint32_t counter[3];

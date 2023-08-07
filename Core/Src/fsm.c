@@ -140,7 +140,7 @@ void run_fsm(FSMStruct * fsmstate)
         case INIT_MODE:
             if(count_init==0)
             {
-                init_fsm();
+                init_fsm();  //can cause infinite loop - need to check
             }
             break;
 

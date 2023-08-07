@@ -273,7 +273,7 @@ void impedance_step(MAX22200_StatusReg* stat_reg,pid_control* pids[],Motor* moto
 	        else
 	        {
 	            // Set the motor direction to BREAK
-	            Motor_setDirection(i+1, BREAK,stat_reg);
+//	            Motor_setDirection(i+1, BREAK,stat_reg);
 	        }
 	    }
 }

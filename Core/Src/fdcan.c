@@ -32,7 +32,7 @@ FDCAN_RxHeaderTypeDef RxHeader;
 FDCAN_HandleTypeDef fdcan;
 uint8_t TxData[8];
 uint8_t RxData[26];
-int fingerAddress = 215;  //TODO need to check the finger address shit
+int fingerAddress = 0xDB;  //TODO need to check the finger address shit
 
 
 typedef enum {

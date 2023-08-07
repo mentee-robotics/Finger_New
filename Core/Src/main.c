@@ -119,6 +119,7 @@ int main(void)
   MX_TIM6_Init();
   MX_TIM5_Init();
   /* USER CODE BEGIN 2 */
+//  HAL_Delay(40000);
   init_fsm();
 
   /* USER CODE END 2 */
